@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#120f16" />
+    <meta
+      name="description"
+      content="Persoonlijke hardloopapps en toegankelijke coaching voor jouw eerste 10 kilometer of halve marathon."
+    />
+    <title>bartlopen Run Coach — jouw coach in je broekzak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="magma-glow magma-glow--one" aria-hidden="true"></div>
+    <div class="magma-glow magma-glow--two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="bartlopen Run Coach, naar boven">
+        <img src="assets/bartlopen-runcoach.png" alt="" />
+        <span><strong>bartlopen</strong><small>RUN COACH</small></span>
+      </a>
+      <a class="header-cta" href="#kennismaken">Gratis kennismaken</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Persoonlijk. Duidelijk. Motiverend.</p>
+          <h1>Jouw hardloopcoach <em>in je broekzak.</em></h1>
+          <p class="hero-intro">
+            Geen los PDF-schema, maar een eigen coach-app die past bij jouw doel en jouw drukke leven.
+            Train voor je eerste 10 kilometer of halve marathon met overzicht, plezier en persoonlijke aandacht.
+          </p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#kennismaken">Gratis kennismaking aanvragen <span>→</span></a>
+            <a class="button button--ghost" href="start/">Download gratis e-book</a>
+          </div>
+          <ul class="trust-list" aria-label="Voordelen">
+            <li><span>✓</span> Persoonlijke app</li>
+            <li><span>✓</span> Al vanaf €19</li>
+            <li><span>✓</span> Geen ingewikkeld gedoe</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="runner-card">
+            <img src="assets/coach.jpg" alt="Bart tijdens een hardlooptraining in het groen" />
+            <div class="runner-card__caption">
+              <span class="live-dot"></span>
+              <div><strong>Hoi, ik ben Bart</strong><small>Hardloper, coach & meester</small></div>
+            </div>
+          </div>
+
+          <div class="phone-demo" aria-label="Voorbeeld van een persoonlijke hardloopapp">
+            <div class="phone-demo__top"><span>9:41</span><span>● ●● ᯤ</span></div>
+            <p class="phone-demo__hello">Goedemorgen, Lisa 👋</p>
+            <h2>Op naar jouw eerste 10 km</h2>
+            <div class="week-progress"><span>Week 4 van 10</span><strong>40%</strong></div>
+            <div class="progress"><i></i></div>
+            <article class="mini-workout">
+              <div class="mini-workout__icon">⚡</div>
+              <div><small>VANDAAG</small><strong>Rustige duurloop</strong><span>35 min · ontspannen tempo</span></div>
+              <b>→</b>
+            </article>
+            <div class="mini-stats">
+              <span><b>8</b><small>trainingen</small></span>
+              <span><b>26,4</b><small>kilometer</small></span>
+              <span><b>🔥 3</b><small>reeks</small></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Persoonlijke prestaties van Bart">
+        <div><strong>19:11</strong><span>5 KM</span></div>
+        <i></i>
+        <div><strong>1:31:11</strong><span>HALVE MARATHON</span></div>
+        <i></i>
+        <div><strong>3:18:09</strong><span>MARATHON</span></div>
+      </section>
+
+      <section class="section-shell intro-section reveal">
+        <div>
+          <p class="eyebrow"><span></span> Herkenbaar?</p>
+          <h2>Je wilt wel lopen.<br /><em>Maar je week loopt anders.</em></h2>
+        </div>
+        <div class="problem-copy">
+          <p>
+            Werk, gezin, vermoeidheid en vakantie houden geen rekening met een standaardschema. Dan is het fijn als
+            je precies weet wat belangrijk is — en wat best een keer mag schuiven.
+          </p>
+          <p>
+            bartlopen geeft je een haalbaar plan, een app die motiveert en precies zoveel begeleiding als jij nodig
+            hebt.
+          </p>
+        </div>
+      </section>
+
+      <section class="startcheck section-shell reveal" id="startcheck">
+        <div class="startcheck__copy">
+          <p class="free-label">GRATIS STARTCHECK</p>
+          <h2>Hoe klaar ben jij voor je eerste 10 km?</h2>
+          <p>Beantwoord vier korte vragen en ontdek welke start het beste bij jou past. Geen e-mailadres nodig.</p>
+          <div class="check-points">
+            <span>✓ Duurt maar 2 minuten</span>
+            <span>✓ Direct persoonlijk startadvies</span>
+          </div>
+          <a class="ebook-inline" href="start/">Liever rustig lezen? Bekijk het gratis e-book <span>→</span></a>
+        </div>
+
+        <form class="quiz-card" id="startcheck-form">
+          <div class="quiz-progress"><i id="quiz-progress"></i></div>
+          <div class="quiz-step is-active" data-step="0">
+            <span class="step-label">VRAAG 1 VAN 4</span>
+            <h3>Hoeveel minuten kun je nu rustig achter elkaar hardlopen?</h3>
+            <label><input type="radio" name="current" value="0" /> Nog niet / minder dan 10 minuten</label>
+            <label><input type="radio" name="current" value="1" /> Tussen 10 en 30 minuten</label>
+            <label><input type="radio" name="current" value="2" /> Langer dan 30 minuten</label>
+          </div>
+          <div class="quiz-step" data-step="1">
+            <span class="step-label">VRAAG 2 VAN 4</span>
+            <h3>Hoe vaak kun je meestal per week trainen?</h3>
+            <label><input type="radio" name="days" value="0" /> Eén keer</label>
+            <label><input type="radio" name="days" value="1" /> Twee keer</label>
+            <label><input type="radio" name="days" value="2" /> Drie keer of vaker</label>
+          </div>
+          <div class="quiz-step" data-step="2">
+            <span class="step-label">VRAAG 3 VAN 4</span>
+            <h3>Waar heb je op dit moment het meeste behoefte aan?</h3>
+            <label><input type="radio" name="need" value="0" /> Rustig en veilig beginnen</label>
+            <label><input type="radio" name="need" value="1" /> Een duidelijk schema dat ik zelf volg</label>
+            <label><input type="radio" name="need" value="2" /> Persoonlijke motivatie en aanpassingen</label>
+          </div>
+          <div class="quiz-step" data-step="3">
+            <span class="step-label">VRAAG 4 VAN 4</span>
+            <h3>Heb je momenteel pijn of een blessure tijdens het lopen?</h3>
+            <label><input type="radio" name="injury" value="injury" /> Ja, ik heb pijn of een blessure</label>
+            <label><input type="radio" name="injury" value="clear" /> Nee, niet op dit moment</label>
+          </div>
+          <div class="quiz-step quiz-result" data-step="4" aria-live="polite">
+            <span class="result-icon">🎯</span>
+            <span class="step-label">JOUW STARTADVIES</span>
+            <h3 id="result-title">Je bent klaar voor een mooie start</h3>
+            <p id="result-copy"></p>
+            <a class="button button--primary" href="#kennismaken">Bespreek mijn doel <span>→</span></a>
+            <button class="text-button" type="button" id="quiz-again">Opnieuw doen</button>
+          </div>
+          <p class="quiz-warning" id="quiz-warning" aria-live="polite"></p>
+          <button class="button button--primary quiz-next" type="button" id="quiz-next">Volgende vraag <span>→</span></button>
+        </form>
+      </section>
+
+      <section class="offers section-shell" id="aanbod">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> Kies jouw start</p>
+          <h2>Van zelf lopen tot samen groeien.</h2>
+          <p>Je hoeft niet meteen een groot traject te kiezen. Begin met wat nu bij jou past.</p>
+        </div>
+
+        <div class="offer-grid">
+          <article class="offer-card reveal">
+            <div class="offer-icon">↗</div>
+            <span class="offer-tag">ZELF AAN DE SLAG</span>
+            <h3>Start App</h3>
+            <p>Een compleet schema in een fijne app. Jij traint zelfstandig, op jouw momenten.</p>
+            <div class="price"><small>eenmalig</small><strong><sup>€</sup>19</strong></div>
+            <ul>
+              <li>10 km trainingsschema</li>
+              <li>Voortgang, stats en badges</li>
+              <li>Uitleg bij iedere training</li>
+              <li>Optioneel los coachmoment</li>
+            </ul>
+            <a href="#kennismaken" class="card-link">Ik wil zelfstandig starten <span>→</span></a>
+          </article>
+
+          <article class="offer-card offer-card--featured reveal">
+            <span class="popular">MEEST PERSOONLIJK</span>
+            <div class="offer-icon">✦</div>
+            <span class="offer-tag">GEMAAKT VOOR JOU</span>
+            <h3>Persoonlijke App</h3>
+            <p>Jouw doel, dagen en tempo's verwerkt in een eigen motiverende coach-app.</p>
+            <div class="price"><small>eenmalig</small><strong><sup>€</sup>69</strong></div>
+            <ul>
+              <li>Korte persoonlijke intake</li>
+              <li>Schema passend bij jouw week</li>
+              <li>Eigen doelen en tempo's</li>
+              <li>Eén kleine aanpassingsronde</li>
+            </ul>
+            <a href="#kennismaken" class="card-link">Vraag jouw app aan <span>→</span></a>
+          </article>
+
+          <article class="offer-card reveal">
+            <div class="offer-icon">◎</div>
+            <span class="offer-tag">SAMEN NAAR JE DOEL</span>
+            <h3>Coach in je pocket</h3>
+            <p>Een persoonlijke app met rustig, vast contact en maandelijkse aanpassingen.</p>
+            <div class="price"><small>per maand</small><strong><sup>€</sup>59</strong></div>
+            <ul>
+              <li>Alles uit Persoonlijke App</li>
+              <li>Maandelijkse check-in</li>
+              <li>Eén schema-aanpassing per maand</li>
+              <li>Reactie per e-mail binnen 3 werkdagen</li>
+            </ul>
+            <a href="#kennismaken" class="card-link">Plan een gratis kennismaking <span>→</span></a>
+          </article>
+        </div>
+        <p class="price-note reveal">Introductieprijzen voor de eerste klanten. Coaching start met een doelblok van 3 maanden.</p>
+      </section>
+
+      <section class="demo-section section-shell reveal">
+        <div class="demo-copy">
+          <p class="eyebrow"><span></span> Dit krijg je</p>
+          <h2>Geen schema dat verdwijnt in je downloads.</h2>
+          <p>
+            Je opent je app gewoon op je telefoon. Daar zie je wat vandaag belangrijk is, wat je al hebt gedaan en
+            hoe dichtbij je doel komt.
+          </p>
+          <div class="feature-list">
+            <span><b>01</b> Trainingen duidelijk uitgelegd</span>
+            <span><b>02</b> Persoonlijke doelen en racedagen</span>
+            <span><b>03</b> Stats, badges en motivatie</span>
+            <span><b>04</b> Werkt direct in je browser</span>
+          </div>
+        </div>
+        <div class="app-collage" aria-label="Demo van appschermen">
+          <div class="app-screen app-screen--back">
+            <span class="screen-label">JOUW WEEK</span>
+            <h3>Rustig bouwen</h3>
+            <div class="calendar-row"><i>MA</i><i>DI</i><i class="active">WO</i><i>DO</i><i>VR</i></div>
+            <div class="session done">✓ Rustige duurloop <small>30 min</small></div>
+            <div class="session">Intervaltraining <small>6 × 2 min</small></div>
+            <div class="session race">🏁 10 km testloop</div>
+          </div>
+          <div class="app-screen app-screen--front">
+            <span class="screen-label">VOORTGANG</span>
+            <div class="big-ring"><span><b>64%</b><small>voltooid</small></span></div>
+            <h3>Lekker bezig!</h3>
+            <p>Je hebt deze week alle trainingen afgerond.</p>
+            <div class="badge-row"><span>🔥</span><span>⚡</span><span>🏅</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="over-bart">
+        <div class="about-photo reveal">
+          <img src="assets/coach.jpg" alt="Bart de Vries buiten tijdens het hardlopen" />
+          <span>Gewoon Bart.<br />En gek op lopen.</span>
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow"><span></span> Over Bart</p>
+          <h2>Een snelle loper.<br /><em>Een rustige coach.</em></h2>
+          <p>
+            Ik ben Bart de Vries: meester van de bovenbouw, fanatiek hardloper en graag in de gym. Ik weet hoe leuk
+            een doel kan zijn, maar ook dat trainen moet passen naast werk en de rest van je leven.
+          </p>
+          <p>
+            Daarom maak ik persoonlijke apps die duidelijk en motiverend voelen. Geen geschreeuw vanaf de zijlijn,
+            maar eerlijk meedenken en samen stap voor stap vooruit.
+          </p>
+          <div class="personal-stats">
+            <span><strong>3:18:09</strong>Marathon</span>
+            <span><strong>1:31:11</strong>Halve marathon</span>
+            <span><strong>19:11</strong>5 kilometer</span>
+            <span><strong>100 kg</strong>Benchpress</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="kennismaken">
+        <div class="contact-copy reveal">
+          <p class="eyebrow"><span></span> Gratis kennismaken</p>
+          <h2>Vertel mij waar jij naartoe wilt lopen.</h2>
+          <p>
+            Laat kort je doel en huidige niveau achter. De site maakt er een bericht van dat je zelf via TikTok naar
+            @bartlopen kunt sturen. Je telefoonnummer is niet nodig en de website bewaart niets.
+          </p>
+          <div class="contact-note"><span>↗</span><p><strong>Persoonlijk contact via TikTok</strong><br />Rechtstreeks met Bart</p></div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <label>Voornaam<input type="text" name="name" placeholder="Jouw voornaam" required /></label>
+          <label>Waar wil je voor trainen?
+            <select name="goal" required>
+              <option value="">Kies jouw doel</option>
+              <option>Eerste 5 kilometer</option>
+              <option>Eerste of snellere 10 kilometer</option>
+              <option>Eerste halve marathon</option>
+              <option>Ander hardloopdoel</option>
+            </select>
+          </label>
+          <label>Vertel kort waar je nu staat
+            <textarea name="message" rows="4" placeholder="Bijvoorbeeld: ik loop nu twee keer per week ongeveer 5 km..." required></textarea>
+          </label>
+          <button class="button button--primary" type="submit">Kopieer mijn kennismakingsbericht <span>→</span></button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+          <a class="tiktok-contact" id="tiktok-contact" href="https://www.tiktok.com/@bartlopen" target="_blank" rel="noopener" hidden>Open TikTok @bartlopen <span>↗</span></a>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <img src="assets/bartlopen-runcoach.png" alt="bartlopen Run Coach" />
+        <p>Persoonlijke hardloopapps en coaching die past bij jouw leven.</p>
+      </div>
+      <nav aria-label="Sociale kanalen">
+        <a href="https://www.tiktok.com/@bartlopen" target="_blank" rel="noopener">TikTok ↗</a>
+        <a href="start/">Gratis e-book ↗</a>
+      </nav>
+      <p class="footer-small">© 2026 bartlopen Run Coach · Demo</p>
+    </footer>
+
+    <div class="demo-toast" id="demo-toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

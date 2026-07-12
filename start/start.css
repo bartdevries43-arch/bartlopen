@@ -1,0 +1,155 @@
+:root {
+  --bg: #100d13;
+  --surface: #1a151d;
+  --surface-2: #221a24;
+  --text: #fff8f3;
+  --muted: #bdb1bb;
+  --orange: #ff963f;
+  --pink: #ff2e83;
+  --coral: #ff5968;
+  --line: rgba(255,255,255,.1);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text);
+  background: var(--bg);
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  opacity: .035;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+.ambient { position: absolute; width: 420px; height: 420px; border-radius: 50%; filter: blur(120px); pointer-events: none; opacity: .14; }
+.ambient--orange { background: var(--orange); top: 150px; left: -300px; }
+.ambient--pink { background: var(--pink); top: 650px; right: -330px; }
+
+header { width: min(1120px, calc(100% - 40px)); height: 82px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand img { width: 46px; height: 46px; object-fit: cover; border-radius: 14px; }
+.brand span { display: grid; line-height: 1; }
+.brand strong { font: 800 20px "Manrope"; background: linear-gradient(90deg,var(--orange),var(--pink)); color: transparent; background-clip: text; }
+.brand small { color: var(--muted); font-size: 7px; letter-spacing: .3em; margin-top: 5px; }
+.small-link { color: #e4d9e1; text-decoration: none; font-size: 13px; font-weight: 700; }
+.small-link span { color: var(--orange); }
+
+main { width: min(1120px, calc(100% - 40px)); margin: auto; }
+.hero { min-height: 720px; display: grid; grid-template-columns: 1fr .86fr; gap: 80px; align-items: center; padding: 65px 0 105px; }
+.kicker,.eyebrow { color: var(--orange); font-size: 10px; font-weight: 900; letter-spacing: .16em; }
+.kicker span { display: inline-block; color: #1c1116; background: var(--orange); border-radius: 99px; padding: 3px 8px; margin-right: 7px; }
+h1,h2,h3 { font-family: "Manrope",sans-serif; line-height: 1.07; letter-spacing: -.045em; margin-top: 0; }
+h1 { font-size: clamp(55px,8vw,92px); margin: 22px 0 17px; }
+h1 em,h2 em { color: var(--orange); font-style: normal; display: block; }
+.subtitle { color: var(--text); font: 700 21px/1.35 "Manrope"; max-width: 650px; }
+.intro { color: var(--muted); max-width: 620px; font-size: 16px; }
+.download-button { max-width: 510px; margin-top: 28px; display: flex; align-items: center; gap: 15px; min-height: 70px; padding: 11px 17px; border-radius: 17px; text-decoration: none; color: #1c1116; background: linear-gradient(105deg,var(--orange),var(--coral),var(--pink)); box-shadow: 0 18px 45px rgba(255,75,91,.2); transition: .2s ease; }
+.download-button:hover { transform: translateY(-3px); box-shadow: 0 22px 55px rgba(255,75,91,.3); }
+.download-icon { flex: 0 0 45px; height: 45px; display: grid; place-items: center; background: rgba(255,255,255,.3); border-radius: 13px; font: 900 24px "Manrope"; }
+.download-button > span:last-child { display: grid; }
+.download-button strong { font-size: 15px; }
+.download-button small { font-size: 11px; opacity: .75; }
+.privacy-note { color: var(--muted); font-size: 11px; }
+
+.book-stage { min-height: 560px; position: relative; perspective: 1300px; }
+.book-shadow { position: absolute; width: 330px; height: 440px; right: 30px; top: 80px; background: rgba(0,0,0,.7); filter: blur(35px); transform: rotate(8deg); }
+.book-cover { position: absolute; right: 45px; top: 5px; width: 350px; height: 500px; overflow: hidden; padding: 31px; border-radius: 8px 23px 23px 8px; background: radial-gradient(circle at 110% -5%,#57251e 0 26%,#341817 27% 39%,transparent 40%),#0d0b10; box-shadow: -11px 7px 0 #2f2530,0 38px 80px rgba(0,0,0,.5); transform: rotateY(-9deg) rotateZ(4deg); border-right: 2px solid rgba(255,150,63,.3); }
+.book-cover::after { content:""; position:absolute; inset:auto auto -60px -80px; width:190px; height:190px; border-radius:50%; background:rgba(255,46,131,.1); }
+.book-brand { display:flex; align-items:center; gap:8px; }
+.book-brand img { width:34px; height:34px; object-fit:cover; border-radius:10px; }
+.book-brand span { display:grid; line-height:1; }
+.book-brand b { font-size:12px; }
+.book-brand small { color:var(--muted); font-size:5px; letter-spacing:.2em; margin-top:4px; }
+.book-cover h2 { font-size:37px; margin:50px 0 13px; }
+.book-cover h2 em { font-size:58px; }
+.book-cover > p { width:70%; font-size:10px; line-height:1.35; font-weight:700; }
+.book-photo { position:absolute; width:165px; height:175px; object-fit:cover; right:24px; bottom:25px; border-radius:24px; border:2px solid var(--orange); }
+.book-author { position:absolute; left:30px; bottom:58px; font-weight:900; font-size:7px; }
+.page-count { position:absolute; right:0; bottom:12px; width:74px; height:74px; display:grid; place-content:center; text-align:center; border-radius:50%; background:var(--orange); color:#1c1116; font:900 22px/1 "Manrope"; box-shadow:0 14px 35px rgba(255,150,63,.23); }
+.page-count small { font-size:6px; letter-spacing:.12em; }
+
+.inside { padding: 130px 0; border-top:1px solid var(--line); }
+.section-copy { display:grid; grid-template-columns: .45fr 1fr; gap:30px 60px; align-items:end; margin-bottom:55px; }
+.section-copy .eyebrow { grid-row:1 / 3; }
+.section-copy h2,.about h2,.final-cta h2 { font-size:clamp(38px,5vw,59px); margin-bottom:0; }
+.section-copy > p:last-child { color:var(--muted); max-width:620px; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:13px; }
+.lesson-grid article { display:grid; grid-template-columns:auto 1fr; gap:17px; align-items:start; padding:25px; border-radius:21px; background:var(--surface); border:1px solid var(--line); }
+.lesson-grid article > b { color:var(--orange); font:800 20px "Manrope"; }
+.lesson-grid article span { display:grid; color:var(--muted); font-size:13px; }
+.lesson-grid article strong { color:var(--text); font:700 17px "Manrope"; margin-bottom:5px; }
+
+.about { display:grid; grid-template-columns:.82fr 1.18fr; gap:85px; align-items:center; padding:100px 0 150px; }
+.about-photo { position:relative; }
+.about-photo img { width:100%; height:600px; object-fit:cover; border-radius:35px; }
+.about-photo::after { content:""; position:absolute; inset:auto 0 0; height:40%; border-radius:0 0 35px 35px; background:linear-gradient(transparent,rgba(10,8,12,.88)); }
+.about-photo span { position:absolute; z-index:1; left:25px; bottom:25px; font:800 23px/1.2 "Manrope"; transform:rotate(-3deg); }
+.about-copy > p:not(.eyebrow) { color:var(--muted); font-size:16px; }
+.stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:27px 0 22px; }
+.stats span { display:grid; padding:13px; border-radius:14px; background:var(--surface); border:1px solid var(--line); color:var(--muted); font-size:8px; }
+.stats strong { color:var(--text); font:800 18px "Manrope"; }
+.strava-placeholder { display:inline-flex; gap:20px; color:var(--text); text-decoration:none; border-bottom:1px solid var(--orange); padding:5px 0; font-weight:700; }
+.strava-placeholder span { color:var(--orange); }
+
+.final-cta { text-align:center; padding:100px 35px; border-radius:40px; background:radial-gradient(circle at 50% 0,rgba(255,150,63,.19),transparent 54%),var(--surface); border:1px solid rgba(255,150,63,.22); }
+.finish-icon { display:block; font-size:45px; margin-bottom:15px; }
+.final-cta > p:not(.eyebrow) { color:var(--muted); }
+.download-button--center { margin:27px auto 20px; text-align:left; }
+.next-links { display:flex; justify-content:center; flex-wrap:wrap; gap:24px; }
+.next-links a { color:var(--text); text-decoration:none; font-size:13px; font-weight:700; }
+.next-links span { color:var(--orange); }
+
+footer { width:min(1120px,calc(100% - 40px)); margin:100px auto 0; padding:40px 0 55px; border-top:1px solid var(--line); display:grid; grid-template-columns:1fr 1fr; gap:20px; color:var(--muted); }
+footer div { display:grid; }
+footer strong { color:var(--text); }
+footer p { text-align:right; font-size:10px; }
+footer small { grid-column:1 / -1; color:#716872; }
+.toast { position:fixed; z-index:20; left:50%; bottom:24px; transform:translate(-50%,140%); max-width:calc(100% - 24px); padding:13px 18px; color:#26151a; background:#fff0df; border-radius:14px; font-weight:700; font-size:13px; box-shadow:0 20px 60px rgba(0,0,0,.4); transition:.25s ease; }
+.toast.is-visible { transform:translate(-50%,0); }
+
+@media(max-width:850px){
+  .hero,.about { grid-template-columns:1fr; }
+  .hero-copy { text-align:center; }
+  .intro,.subtitle { margin-inline:auto; }
+  .download-button { margin-inline:auto; text-align:left; }
+  .book-stage { max-width:470px; width:100%; margin:auto; }
+  .section-copy { grid-template-columns:1fr; gap:8px; }
+  .section-copy .eyebrow { grid-row:auto; }
+  .about-photo { max-width:540px; }
+}
+@media(max-width:560px){
+  header,main,footer { width:min(100% - 28px,1120px); }
+  header { height:70px; }
+  .brand img { width:40px; height:40px; }
+  .brand strong { font-size:17px; }
+  .small-link { font-size:11px; }
+  .hero { min-height:0; padding:55px 0 80px; gap:40px; }
+  h1 { font-size:57px; }
+  .subtitle { font-size:18px; }
+  .download-button { min-height:68px; padding:10px; }
+  .download-icon { flex-basis:42px; height:42px; }
+  .download-button strong { font-size:13px; }
+  .privacy-note { font-size:9px; }
+  .book-stage { min-height:470px; transform:scale(.85); transform-origin:top center; margin-bottom:-70px; }
+  .book-cover { right:50%; transform:translateX(50%) rotateY(-8deg) rotateZ(3deg); }
+  .page-count { right:-8px; }
+  .inside { padding:90px 0; }
+  .lesson-grid { grid-template-columns:1fr; }
+  .about { gap:40px; padding:70px 0 100px; }
+  .about-photo img { height:490px; }
+  .stats { grid-template-columns:1fr 1fr; }
+  .final-cta { padding:70px 15px; border-radius:28px; }
+  footer { grid-template-columns:1fr; }
+  footer p { text-align:left; }
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
