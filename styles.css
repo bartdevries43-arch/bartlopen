@@ -379,3 +379,7 @@ footer nav a { color: #d4cad2; text-decoration: none; font-weight: 700; font-siz
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Demo-app knop in de demo-sectie */
+.demo-live-button { margin-top: 26px; }
+.demo-live-note { margin-top: 10px; font-size: 0.86rem; opacity: 0.72; }
