@@ -90,14 +90,16 @@ document.querySelectorAll("[data-demo-link]").forEach((link) => {
 document.querySelector("#contact-form").addEventListener("submit", async (event) => {
   event.preventDefault();
   const status = document.querySelector("#form-status");
+  const tiktokLink = document.querySelector("#tiktok-contact");
   const data = new FormData(event.currentTarget);
   const text = `Hoi Bart, ik ben ${data.get("name")}. Ik wil graag trainen voor: ${data.get("goal")}. Waar ik nu sta: ${data.get("message")}`;
   try {
     await navigator.clipboard.writeText(text);
-    status.textContent = "✓ Bericht gekopieerd. Open TikTok en stuur het naar @bartlopen.";
-    showToast("Je kennismakingsbericht staat klaar om te plakken.");
+    status.textContent = "✓ Bericht gekopieerd. Het is nog niet verstuurd — open nu TikTok en plak het in een bericht aan @bartlopen.";
+    showToast("Stap 1 gelukt. Open nu TikTok om je bericht te versturen.");
   } catch {
-    status.textContent = `Kopieer dit bericht en stuur het naar @bartlopen: ${text}`;
+    status.textContent = `Kopiëren lukte niet automatisch. Selecteer dit bericht en stuur het naar @bartlopen: ${text}`;
   }
-  document.querySelector("#tiktok-contact").hidden = false;
+  tiktokLink.hidden = false;
+  tiktokLink.focus({ preventScroll: true });
 });

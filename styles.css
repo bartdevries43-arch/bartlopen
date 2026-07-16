@@ -314,6 +314,8 @@ footer nav a { color: #d4cad2; text-decoration: none; font-weight: 700; font-siz
 
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .65s ease, transform .65s ease; }
 .reveal.is-visible { opacity: 1; transform: none; }
+section[id] { scroll-margin-top: 24px; }
+section:target .reveal { opacity: 1; transform: none; }
 @keyframes fadeSlide { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: none; } }
 
 @media (max-width: 920px) {
