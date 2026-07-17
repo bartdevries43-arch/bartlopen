@@ -95,7 +95,7 @@ document.querySelector("#contact-form").addEventListener("submit", async (event)
   const text = `Hoi Bart, ik ben ${data.get("name")}. Ik wil graag trainen voor: ${data.get("goal")}. Waar ik nu sta: ${data.get("message")}`;
   try {
     await navigator.clipboard.writeText(text);
-    status.textContent = "✓ Bericht gekopieerd. Het is nog niet verstuurd — open nu TikTok en plak het in een bericht aan @bartlopen.";
+    status.textContent = "✓ Bericht gekopieerd. Het is nog niet verstuurd. Open nu TikTok en plak het in een bericht aan @bartlopen.";
     showToast("Stap 1 gelukt. Open nu TikTok om je bericht te versturen.");
   } catch {
     status.textContent = `Kopiëren lukte niet automatisch. Selecteer dit bericht en stuur het naar @bartlopen: ${text}`;
