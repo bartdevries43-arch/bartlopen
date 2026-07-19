@@ -15,7 +15,7 @@ const count = await slides.count();
 
 for (let i = 0; i < count; i++) {
   await slides.nth(i).screenshot({
-    path: path.join(out, `hybrid-hardlopen-kracht-${String(i + 1).padStart(2, '0')}.png`),
+    path: path.join(out, `hybrid-hardlopen-kracht-pro-${String(i + 1).padStart(2, '0')}.png`),
     type: 'png'
   });
 }
