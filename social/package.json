@@ -6,7 +6,8 @@
     "render:zone2": "playwright install chromium && node render-zone2.mjs",
     "render:cadans": "playwright install chromium && node render-cadans.mjs",
     "render:ademhaling": "playwright install chromium && node render-ademhaling.mjs",
-    "render:hitte": "playwright install chromium && node render-hitte.mjs"
+    "render:hitte": "playwright install chromium && node render-hitte.mjs",
+    "render:carbload": "playwright install chromium && node render-carbload.mjs"
   },
   "devDependencies": {
     "playwright": "^1.54.0"
