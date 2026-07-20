@@ -388,6 +388,7 @@ Score: 5 = zeer sterk, 1 = laag. De totaalscore is een redactionele prioriteit, 
 - Slaap versus herstelgadgets
 - Je rustige duurloop gaat waarschijnlijk te hard
 - Driedaagse full-bodysplit A/B/C
+- Creatine voor hardlopers: slim of extra gewicht?
 
 Deze blijven bruikbaar, maar krijgen later pas een vervolg of update. Zo voorkomen we dat het account inhoudelijk in cirkels gaat.
 

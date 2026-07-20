@@ -15,7 +15,8 @@
     "render:legday": "playwright install chromium && node render-legday.mjs",
     "render:recovery": "playwright install chromium && node render-recovery.mjs",
     "render:easy": "playwright install chromium && node render-easy.mjs",
-    "render:fullbody3": "playwright install chromium && node render-fullbody3.mjs"
+    "render:fullbody3": "playwright install chromium && node render-fullbody3.mjs",
+    "render:creatine": "playwright install chromium && node render-creatine.mjs"
   },
   "devDependencies": {
     "playwright": "^1.54.0"
