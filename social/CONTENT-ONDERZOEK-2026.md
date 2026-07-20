@@ -387,6 +387,7 @@ Score: 5 = zeer sterk, 1 = laag. De totaalscore is een redactionele prioriteit, 
 - Legday vóór je longrun
 - Slaap versus herstelgadgets
 - Je rustige duurloop gaat waarschijnlijk te hard
+- Driedaagse full-bodysplit A/B/C
 
 Deze blijven bruikbaar, maar krijgen later pas een vervolg of update. Zo voorkomen we dat het account inhoudelijk in cirkels gaat.
 
