@@ -393,6 +393,7 @@ Score: 5 = zeer sterk, 1 = laag. De totaalscore is een redactionele prioriteit, 
 - VO2max gedaald? Niet meteen minder fit
 - Drie keer per week lopen kan genoeg zijn
 - Spierpijn is geen groeimeter
+- De taper: minder trainen zonder fitheid te verliezen
 
 Deze blijven bruikbaar, maar krijgen later pas een vervolg of update. Zo voorkomen we dat het account inhoudelijk in cirkels gaat.
 
