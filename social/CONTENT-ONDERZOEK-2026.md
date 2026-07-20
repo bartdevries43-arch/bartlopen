@@ -380,6 +380,13 @@ Score: 5 = zeer sterk, 1 = laag. De totaalscore is een redactionele prioriteit, 
 - Ademhaling
 - Lopen in de hitte
 - Carbloading
+- Je horloge zegt ‘onproductief’
+- De 10%-regel genuanceerd
+- Niet elke set tot falen
+- De eerste kilometer van je race
+- Legday vóór je longrun
+- Slaap versus herstelgadgets
+- Je rustige duurloop gaat waarschijnlijk te hard
 
 Deze blijven bruikbaar, maar krijgen later pas een vervolg of update. Zo voorkomen we dat het account inhoudelijk in cirkels gaat.
 
