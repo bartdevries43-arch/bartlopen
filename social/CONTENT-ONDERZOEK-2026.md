@@ -392,6 +392,7 @@ Score: 5 = zeer sterk, 1 = laag. De totaalscore is een redactionele prioriteit, 
 - Een gel is brandstof, geen magische turbo
 - VO2max gedaald? Niet meteen minder fit
 - Drie keer per week lopen kan genoeg zijn
+- Spierpijn is geen groeimeter
 
 Deze blijven bruikbaar, maar krijgen later pas een vervolg of update. Zo voorkomen we dat het account inhoudelijk in cirkels gaat.
 
