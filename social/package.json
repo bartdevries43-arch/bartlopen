@@ -17,7 +17,8 @@
     "render:easy": "playwright install chromium && node render-easy.mjs",
     "render:fullbody3": "playwright install chromium && node render-fullbody3.mjs",
     "render:creatine": "playwright install chromium && node render-creatine.mjs",
-    "render:gels": "playwright install chromium && node render-gels.mjs"
+    "render:gels": "playwright install chromium && node render-gels.mjs",
+    "render:vo2max": "playwright install chromium && node render-vo2max.mjs"
   },
   "devDependencies": {
     "playwright": "^1.54.0"
