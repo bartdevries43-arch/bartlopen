@@ -1,0 +1,26 @@
+let chromium;
+try {
+  ({ chromium } = await import('playwright'));
+} catch {
+  ({ chromium } = await import('/Users/bartdevries/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs'));
+}
+import fs from 'node:fs/promises';
+import fsSync from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const here = path.dirname(fileURLToPath(import.meta.url));
+const out = path.join(here, '..', 'assets', 'social');
+await fs.mkdir(out, { recursive: true });
+const localChrome = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+const browser = await chromium.launch(fsSync.existsSync(localChrome)
+  ? { headless: true, executablePath: localChrome }
+  : { headless: true });
+const page = await browser.newPage({ viewport: { width: 1200, height: 1500 }, deviceScaleFactor: 1 });
+await page.goto(`file://${path.join(here, 'tienprocent-carousel.html')}`, { waitUntil: 'networkidle' });
+const slides = page.locator('.slide');
+for (let i = 0; i < await slides.count(); i++) {
+  await slides.nth(i).screenshot({ path: path.join(out, `tienprocent-pro-${String(i + 1).padStart(2, '0')}.png`), type: 'png' });
+}
+await browser.close();
+console.log('10%-regel PRO-carousel gerenderd');
