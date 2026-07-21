@@ -604,6 +604,7 @@ Controleer iedere eerste maandag van de maand:
 
 ### Nieuw afgerond
 
+- **Je kuiten zijn geen bijzaak:** acht slides over de rol van kuitspieren bij hardlopen, kniehoeken, technische uitvoering, weekplanning en een rustige krachtopbouw.
 - **Korte versnellingen na een rustige duurloop:** acht slides over strides, ontspannen snelheid, uitvoering, herstel en een rustige opbouw van vier naar zes herhalingen.
 - **Stop met iedere interval sprinten:** acht slides over trainingsdoel, tempo, herstel, gelijkmatige herhalingen en een praktische coachtest.
 - **Sub 20 op de 5 km:** acht slides over rustige omvang, drempelwerk, doeltempo, een voorbeeldweek en een beheerst raceplan.
