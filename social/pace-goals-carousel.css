@@ -18,6 +18,7 @@
     linear-gradient(153deg, #100d0e 0%, #08090b 51%, #100b12 100%);
 }
 .pace-slide.ten { --goal: var(--pace-blue); --goal-2: var(--pace-purple); }
+.pace-slide.interval { --goal: #ffd45c; --goal-2: #ff5b63; }
 .pace-slide .eyebrow { color: var(--goal); background: color-mix(in srgb, var(--goal) 10%, transparent); }
 .pace-slide .brand-dot { background: linear-gradient(135deg, var(--goal), var(--goal-2)); color: #09090b; }
 .pace-gradient { color: transparent; background: linear-gradient(90deg, var(--goal), var(--goal-2)); background-clip: text; -webkit-background-clip: text; }
@@ -139,3 +140,16 @@
 .pace-cta { margin-top: 41px; background: linear-gradient(90deg, color-mix(in srgb, var(--goal) 12%, transparent), color-mix(in srgb, var(--goal-2) 8%, transparent)); }
 .pace-cta > span { background: var(--goal); color: #09090b; }
 .pace-cta b { color: var(--goal); }
+
+.interval .balance-number b { font-size: 116px; }
+.interval .finish-card b { font-size: 50px; line-height: .9; }
+.rep-score { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-top: 43px; }
+.rep-score section { min-height: 330px; border-radius: 23px; padding: 23px 18px; display: flex; flex-direction: column; justify-content: flex-end; background: linear-gradient(160deg, color-mix(in srgb, var(--goal) 8%, transparent), rgba(255,255,255,.025)); box-shadow: inset 0 1px rgba(255,255,255,.065); }
+.rep-score section:last-child { background: linear-gradient(160deg, color-mix(in srgb, var(--goal-2) 13%, transparent), rgba(255,255,255,.025)); }
+.rep-score small { color: #aaa2ac; font-size: 9px; font-weight: 950; letter-spacing: .13em; }
+.rep-score b { margin-top: 18px; font-size: 38px; }
+.rep-score span { margin-top: 14px; color: #bcb4be; font-size: 12px; line-height: 1.35; }
+.rep-score i { height: var(--bar); min-height: 30px; margin-bottom: 28px; border-radius: 14px; background: linear-gradient(180deg, var(--goal), var(--goal-2)); font-style: normal; }
+.rep-rule { margin-top: 18px; border-radius: 21px; padding: 24px 27px; display: grid; grid-template-columns: 210px 1fr; gap: 22px; align-items: center; background: linear-gradient(90deg, color-mix(in srgb, var(--goal) 11%, transparent), color-mix(in srgb, var(--goal-2) 8%, transparent)); box-shadow: inset 0 1px rgba(255,255,255,.07); }
+.rep-rule b { color: var(--goal); font-size: 11px; letter-spacing: .13em; }
+.rep-rule p { margin: 0; color: #c3bcc5; font-size: 15px; line-height: 1.4; }

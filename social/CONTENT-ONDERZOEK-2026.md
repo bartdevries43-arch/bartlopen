@@ -604,6 +604,7 @@ Controleer iedere eerste maandag van de maand:
 
 ### Nieuw afgerond
 
+- **Stop met iedere interval sprinten:** acht slides over trainingsdoel, tempo, herstel, gelijkmatige herhalingen en een praktische coachtest.
 - **Sub 20 op de 5 km:** acht slides over rustige omvang, drempelwerk, doeltempo, een voorbeeldweek en een beheerst raceplan.
 - **Sub 40 op de 10 km:** acht slides over duurvermogen, langere kwaliteitsblokken, doeltempo en een gelijkmatige raceopbouw.
 

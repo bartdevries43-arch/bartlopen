@@ -24,7 +24,8 @@
     "render:taper": "playwright install chromium && node render-taper.mjs",
     "render:marathonmuur": "playwright install chromium && node render-marathonmuur.mjs",
     "render:fullbody-split": "playwright install chromium && node render-fullbody-split.mjs",
-    "render:pace-goals": "playwright install chromium && node render-pace-goals.mjs"
+    "render:pace-goals": "playwright install chromium && node render-pace-goals.mjs",
+    "render:intervaltempo": "playwright install chromium && node render-intervaltempo.mjs"
   },
   "devDependencies": {
     "playwright": "^1.54.0"
