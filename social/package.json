@@ -23,7 +23,8 @@
     "render:spierpijn": "playwright install chromium && node render-spierpijn.mjs",
     "render:taper": "playwright install chromium && node render-taper.mjs",
     "render:marathonmuur": "playwright install chromium && node render-marathonmuur.mjs",
-    "render:fullbody-split": "playwright install chromium && node render-fullbody-split.mjs"
+    "render:fullbody-split": "playwright install chromium && node render-fullbody-split.mjs",
+    "render:pace-goals": "playwright install chromium && node render-pace-goals.mjs"
   },
   "devDependencies": {
     "playwright": "^1.54.0"

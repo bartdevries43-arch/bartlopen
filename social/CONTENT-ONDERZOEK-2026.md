@@ -602,6 +602,11 @@ Controleer iedere eerste maandag van de maand:
 
 ## Eindadvies
 
+### Nieuw afgerond
+
+- **Sub 20 op de 5 km:** acht slides over rustige omvang, drempelwerk, doeltempo, een voorbeeldweek en een beheerst raceplan.
+- **Sub 40 op de 10 km:** acht slides over duurvermogen, langere kwaliteitsblokken, doeltempo en een gelijkmatige raceopbouw.
+
 Maak van bartlopen geen algemeen fitnesstipsaccount. Claim het snijvlak dat de meeste apps en magazines versnipperd behandelen:
 
 > **Hardlopen + kracht + echte agenda + begrijpelijke data.**
