@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Carousel mobiele QA</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#09070d;color:#fff;font-family:Arial,sans-serif;padding:32px}h1{margin:0 0 24px;font-size:28px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.item{background:#17131e;border:1px solid #342a3f;border-radius:18px;padding:12px}.item img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px}.item b{display:block;padding:10px 2px 2px;text-transform:uppercase;font-size:15px;letter-spacing:.04em}
+  </style>
+</head>
+<body>
+  <h1 id="title"></h1>
+  <main class="grid" id="grid"></main>
+  <script>
+    const decks = [
+      ['ademhaling','ademhaling-pro'],['cadans','cadans-pro'],['cafeine','cafeine-pro'],['carbload','carbload-pro'],
+      ['creatine','creatine-pro'],['easy','easy-pro'],['falen','falen-pro'],['fullbody-split','fullbody-split-pro'],
+      ['fullbody3','fullbody3-pro'],['gels','gels-pro'],['hitte','hitte-pro'],['hybrid','hybrid-hardlopen-kracht-pro'],
+      ['intervaltempo','intervaltempo-pro'],['kuittraining','kuittraining-pro'],['legday','legday-pro'],['marathonmuur','marathonmuur-pro'],
+      ['pacing','pacing-pro'],['recovery','recovery-pro'],['spierpijn','spierpijn-pro'],['strides','strides-pro'],
+      ['sub20','sub20-5k-pro'],['sub40','sub40-10k-pro'],['taper','taper-pro'],['threedays','threedays-pro'],
+      ['tienprocent','tienprocent-pro'],['vo2max','vo2max-pro'],['watchcheck','watchcheck-pro'],['zone2','zone2-pro']
+    ];
+    const dense = new URLSearchParams(location.search).get('type') === 'dense';
+    document.querySelector('#title').textContent = dense ? 'Drukke inhoudsslides op telefoonformaat' : 'Alle covers op telefoonformaat';
+    document.querySelector('#grid').innerHTML = decks.map(([label,prefix], index) => {
+      const slide = dense ? String(2 + (index % 6)).padStart(2,'0') : '01';
+      return `<div class="item"><img src="../assets/social/${prefix}-${slide}.png"><b>${label} · slide ${slide}</b></div>`;
+    }).join('');
+  </script>
+</body>
+</html>

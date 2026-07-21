@@ -27,7 +27,11 @@
     "render:pace-goals": "playwright install chromium && node render-pace-goals.mjs",
     "render:intervaltempo": "playwright install chromium && node render-intervaltempo.mjs",
     "render:strides": "playwright install chromium && node render-strides.mjs",
-    "render:kuittraining": "playwright install chromium && node render-kuittraining.mjs"
+    "render:kuittraining": "playwright install chromium && node render-kuittraining.mjs",
+    "render:cafeine": "playwright install chromium && node render-cafeine.mjs",
+    "audit:mobile": "node audit-mobile-readability.mjs",
+    "render:all-mobile": "node render-all-carousels.mjs",
+    "refresh:downloads": "node refresh-carousel-zips.mjs"
   },
   "devDependencies": {
     "playwright": "^1.54.0"

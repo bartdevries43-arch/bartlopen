@@ -604,6 +604,8 @@ Controleer iedere eerste maandag van de maand:
 
 ### Nieuw afgerond
 
+- **Mobiele leesbaarheidsronde:** alle 28 series en 224 afbeeldingen opnieuw opgebouwd met grotere tekst, ruimere kaarten, een vaste TikTok-leesnorm en vernieuwde downloadpakketten.
+- **Cafeïne voor je wedstrijd:** acht slides over mogelijke voordelen, dosis, timing, verschillende bronnen, bijwerkingen, slaap en een testplan voor training en race.
 - **Je kuiten zijn geen bijzaak:** acht slides over de rol van kuitspieren bij hardlopen, kniehoeken, technische uitvoering, weekplanning en een rustige krachtopbouw.
 - **Korte versnellingen na een rustige duurloop:** acht slides over strides, ontspannen snelheid, uitvoering, herstel en een rustige opbouw van vier naar zes herhalingen.
 - **Stop met iedere interval sprinten:** acht slides over trainingsdoel, tempo, herstel, gelijkmatige herhalingen en een praktische coachtest.

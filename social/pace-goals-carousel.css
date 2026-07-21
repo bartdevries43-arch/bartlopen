@@ -21,6 +21,7 @@
 .pace-slide.interval { --goal: #ffd45c; --goal-2: #ff5b63; }
 .pace-slide.stride { --goal: #bdfb63; --goal-2: #55dcff; }
 .pace-slide.calf { --goal: #ffbd59; --goal-2: #ff4f7b; }
+.pace-slide.caffeine { --goal: #f0c27b; --goal-2: #ff4f8a; }
 .pace-slide .eyebrow { color: var(--goal); background: color-mix(in srgb, var(--goal) 10%, transparent); }
 .pace-slide .brand-dot { background: linear-gradient(135deg, var(--goal), var(--goal-2)); color: #09090b; }
 .pace-gradient { color: transparent; background: linear-gradient(90deg, var(--goal), var(--goal-2)); background-clip: text; -webkit-background-clip: text; }

@@ -1,0 +1,230 @@
+/*
+ * Mobiele leesbaarheidslaag voor TikTok en Instagram.
+ * Het ontwerp wordt op 1080 × 1350 gerenderd en daarna sterk verkleind op een telefoon.
+ * Hoofdtekst krijgt daarom een vaste ondergrens en compacte kaarten krijgen extra ruimte.
+ */
+
+.slide p,
+.slide li {
+  font-size: 24px !important;
+  line-height: 1.34 !important;
+  text-wrap: pretty;
+}
+
+.slide small {
+  font-size: 18px !important;
+  line-height: 1.22 !important;
+}
+
+.slide .eyebrow {
+  font-size: 20px !important;
+  letter-spacing: .14em !important;
+}
+
+.slide .counter {
+  font-size: 18px !important;
+}
+
+.slide .brand {
+  font-size: 24px !important;
+}
+
+.slide .brand small {
+  font-size: 18px !important;
+}
+
+.slide .swipe {
+  font-size: 22px !important;
+}
+
+.slide .lead {
+  font-size: 34px !important;
+  line-height: 1.24 !important;
+}
+
+.slide .subhead,
+.slide .cover-sub,
+.slide .cover-lead,
+.slide .cover-copy,
+.slide .wall-lead {
+  font-size: 27px !important;
+  line-height: 1.3 !important;
+}
+
+.slide .coach-note p,
+.slide .coach-strip p,
+.slide .taper-note,
+.slide .week-note p,
+.slide .week-tip p,
+.slide .rep-rule p,
+.slide .clean-timeline b,
+.slide .clean-timeline small,
+.slide .matrix-note,
+.slide .caveat {
+  font-size: 20px !important;
+  line-height: 1.34 !important;
+}
+
+.slide .pace-clock-card span,
+.slide .cover-truth p,
+.slide .math-main p,
+.slide .balance-number i,
+.slide .finish-card p,
+.slide .bart-proof p,
+.slide .goal-token span,
+.slide .ebook p {
+  font-size: 20px !important;
+  line-height: 1.32 !important;
+}
+
+.slide .cover-truth b {
+  font-size: 38px !important;
+}
+
+.slide .balance-copy section {
+  min-height: 180px !important;
+}
+
+.slide .balance-copy b {
+  font-size: 24px !important;
+  line-height: 1.08 !important;
+}
+
+.slide .balance-copy p {
+  font-size: 20px !important;
+  line-height: 1.32 !important;
+}
+
+.slide .session-list section {
+  min-height: 184px !important;
+  padding-top: 23px !important;
+  padding-bottom: 23px !important;
+}
+
+.slide .session-list b {
+  font-size: 24px !important;
+  line-height: 1.08 !important;
+}
+
+.slide .session-list p {
+  font-size: 19px !important;
+  line-height: 1.28 !important;
+}
+
+.slide .session-list strong {
+  font-size: 19px !important;
+  line-height: 1.25 !important;
+}
+
+.slide .split-stack small,
+.slide .session-list small,
+.slide .balance-copy small,
+.slide .progression small,
+.slide .week-grid small,
+.slide .reply-grid small,
+.slide .math-main small,
+.slide .pace-clock-card small,
+.slide .cover-truth small {
+  font-size: 13px !important;
+}
+
+.slide .split-stack b {
+  font-size: 24px !important;
+}
+
+.slide .split-stack strong {
+  font-size: 43px !important;
+}
+
+.slide .progression section {
+  min-height: 198px !important;
+}
+
+.slide .progression strong {
+  font-size: 24px !important;
+  line-height: 1.08 !important;
+}
+
+.slide .progression p {
+  font-size: 19px !important;
+  line-height: 1.3 !important;
+}
+
+.slide .progression i {
+  font-size: 15px !important;
+}
+
+.slide .week-grid b {
+  font-size: 20px !important;
+  line-height: 1.08 !important;
+}
+
+.slide .week-grid span {
+  font-size: 16px !important;
+  line-height: 1.28 !important;
+}
+
+.slide .rep-score small,
+.slide .rep-score span,
+.slide .race-splits small,
+.slide .race-splits b,
+.slide .race-splits strong,
+.slide .reply-grid b,
+.slide .goal-token small {
+  font-size: 16px !important;
+  line-height: 1.25 !important;
+}
+
+.slide .final-goal > div > p,
+.slide .final-copy > p,
+.slide .final-cta p {
+  font-size: 24px !important;
+  line-height: 1.3 !important;
+}
+
+.slide .final-cta b {
+  font-size: 28px !important;
+}
+
+.slide .choice span,
+.slide .screenshot b,
+.slide .save-label,
+.slide .signal,
+.slide .matrix-head {
+  font-size: 16px !important;
+}
+
+.slide .matrix-row {
+  font-size: 22px !important;
+}
+
+.slide .day span {
+  font-size: 25px !important;
+}
+
+.slide .day small {
+  font-size: 17px !important;
+  line-height: 1.3 !important;
+}
+
+.slide .cover-duel small,
+.slide .cover-duel i,
+.slide .race-road small,
+.slide .calendar small,
+.slide .calendar span,
+.slide .countdown small,
+.slide .pain-scale small {
+  font-size: 14px !important;
+}
+
+.slide .cover-duel p,
+.slide .cover-verdict p,
+.slide .wall-verdict p,
+.slide .myth-stamp p {
+  font-size: 22px !important;
+  line-height: 1.27 !important;
+}
+
+@media (max-width: 1100px) {
+  .deck { padding: 0 !important; gap: 20px !important; }
+}
