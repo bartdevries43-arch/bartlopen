@@ -395,6 +395,7 @@ Score: 5 = zeer sterk, 1 = laag. De totaalscore is een redactionele prioriteit, 
 - Spierpijn is geen groeimeter
 - De taper: minder trainen zonder fitheid te verliezen
 - De marathonmuur begint voor kilometer 30
+- Full body of split: wat werkt voor een loper?
 
 Deze blijven bruikbaar, maar krijgen later pas een vervolg of update. Zo voorkomen we dat het account inhoudelijk in cirkels gaat.
 

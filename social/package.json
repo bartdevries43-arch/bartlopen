@@ -22,7 +22,8 @@
     "render:threedays": "playwright install chromium && node render-threedays.mjs",
     "render:spierpijn": "playwright install chromium && node render-spierpijn.mjs",
     "render:taper": "playwright install chromium && node render-taper.mjs",
-    "render:marathonmuur": "playwright install chromium && node render-marathonmuur.mjs"
+    "render:marathonmuur": "playwright install chromium && node render-marathonmuur.mjs",
+    "render:fullbody-split": "playwright install chromium && node render-fullbody-split.mjs"
   },
   "devDependencies": {
     "playwright": "^1.54.0"
