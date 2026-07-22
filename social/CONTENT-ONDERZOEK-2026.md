@@ -604,6 +604,7 @@ Controleer iedere eerste maandag van de maand:
 
 ### Nieuw afgerond
 
+- **Training gemist? Haal hem niet zomaar in:** acht slides met een beslisboom voor een gemiste rustige duurloop, kwaliteitstraining of lange duurloop, inclusief een veilige terugkeer na ziekte of pijn.
 - **Mobiele leesbaarheidsronde:** alle 28 series en 224 afbeeldingen opnieuw opgebouwd met grotere tekst, ruimere kaarten, een vaste TikTok-leesnorm en vernieuwde downloadpakketten.
 - **Cafeïne voor je wedstrijd:** acht slides over mogelijke voordelen, dosis, timing, verschillende bronnen, bijwerkingen, slaap en een testplan voor training en race.
 - **Je kuiten zijn geen bijzaak:** acht slides over de rol van kuitspieren bij hardlopen, kniehoeken, technische uitvoering, weekplanning en een rustige krachtopbouw.

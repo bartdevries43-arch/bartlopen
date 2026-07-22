@@ -1,0 +1,176 @@
+@import url("pace-goals-carousel.css");
+
+.pace-slide.missed {
+  --goal: #ff756c;
+  --goal-2: #66e6ff;
+}
+
+.missed-cover-grid {
+  height: 360px;
+  margin-top: 38px;
+  display: grid;
+  grid-template-columns: .78fr 1.22fr;
+  gap: 24px;
+}
+.missed-counter,
+.missed-decision {
+  border-radius: 30px;
+  padding: 31px;
+  box-shadow: inset 0 1px rgba(255,255,255,.08), 0 30px 75px rgba(0,0,0,.24);
+}
+.missed-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--goal) 18%, transparent), rgba(255,255,255,.02));
+}
+.missed-counter small,
+.missed-decision small { color: var(--goal); font-weight: 950; letter-spacing: .14em; }
+.missed-counter b { margin-top: 17px; font-size: 104px; line-height: .76; letter-spacing: -.08em; }
+.missed-counter span { margin-top: 25px; font-size: 23px; font-weight: 950; letter-spacing: .1em; }
+.missed-counter p { margin: 12px 0 0; color: #bdb6bf; }
+.missed-decision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--goal-2) 12%, transparent), rgba(255,255,255,.025));
+}
+.missed-decision div { margin-top: 30px; display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 10px; align-items: center; }
+.missed-decision b { padding: 18px 10px; border-radius: 15px; background: rgba(255,255,255,.05); font-size: 20px; text-align: center; }
+.missed-decision i { color: var(--goal); font-size: 26px; font-style: normal; }
+.missed-decision p { margin: 25px 0 0; color: #bdb6bf; }
+
+.decision-list { margin-top: 34px; }
+.decision-list section { min-height: 161px !important; }
+.decision-verdict {
+  margin-top: 15px;
+  min-height: 92px;
+  border-radius: 21px;
+  padding: 18px 25px;
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr;
+  gap: 16px;
+  align-items: center;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--goal-2) 10%, transparent), color-mix(in srgb, var(--goal) 10%, transparent));
+  box-shadow: inset 0 1px rgba(255,255,255,.07);
+}
+.decision-verdict b { color: var(--goal); font-size: 19px; }
+.decision-verdict span { color: #c7c0c9; font-size: 19px; }
+
+.training-priority {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 18px;
+}
+.training-priority section {
+  min-height: 555px;
+  border-radius: 27px;
+  padding: 29px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255,255,255,.04);
+  box-shadow: inset 0 1px rgba(255,255,255,.07), 0 26px 60px rgba(0,0,0,.16);
+}
+.training-priority section.easy { background: linear-gradient(155deg, rgba(102,230,255,.12), rgba(255,255,255,.02)); }
+.training-priority section.quality { background: linear-gradient(155deg, rgba(255,117,108,.16), rgba(255,255,255,.02)); }
+.training-priority section.long { background: linear-gradient(155deg, rgba(173,145,255,.15), rgba(255,255,255,.02)); }
+.training-priority small { color: var(--goal); font-weight: 950; letter-spacing: .12em; }
+.training-priority b { margin-top: 27px; font-size: 31px; line-height: 1.02; }
+.training-priority p { margin: 23px 0 0; color: #bdb6bf; }
+.training-priority span { margin-top: auto; padding: 14px; border-radius: 12px; background: rgba(255,255,255,.05); color: var(--goal-2); font-size: 18px; font-weight: 950; text-align: center; }
+
+.mistake-grid {
+  margin-top: 39px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 18px;
+}
+.mistake-grid section {
+  min-height: 525px;
+  border-radius: 27px;
+  padding: 29px;
+  background: linear-gradient(155deg, color-mix(in srgb, var(--goal) 12%, transparent), rgba(255,255,255,.022));
+  box-shadow: inset 0 1px rgba(255,255,255,.07), 0 26px 60px rgba(0,0,0,.16);
+}
+.mistake-grid section > span {
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--goal) 16%, transparent);
+  color: var(--goal);
+  font-size: 20px;
+  font-weight: 950;
+}
+.mistake-grid small { display: block; margin-top: 38px; color: var(--goal-2); font-weight: 950; letter-spacing: .11em; }
+.mistake-grid b { display: block; margin-top: 22px; font-size: 30px; line-height: 1.03; }
+.mistake-grid p { margin: 24px 0 0; color: #bdb6bf; }
+.research-strip,
+.plan-note,
+.bart-note {
+  margin-top: 18px;
+  min-height: 105px;
+  border-radius: 21px;
+  padding: 21px 26px;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 22px;
+  align-items: center;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--goal-2) 9%, transparent), color-mix(in srgb, var(--goal) 8%, transparent));
+  box-shadow: inset 0 1px rgba(255,255,255,.07);
+}
+.research-strip span,
+.plan-note b,
+.bart-note b { color: var(--goal-2); font-weight: 950; letter-spacing: .12em; }
+.research-strip p,
+.plan-note p,
+.bart-note p { margin: 0; color: #c5bec7; }
+
+.week-scenarios { margin-top: 38px; display: grid; gap: 16px; }
+.week-scenarios section {
+  min-height: 205px;
+  border-radius: 26px;
+  padding: 26px 29px;
+  display: grid;
+  grid-template-columns: 78px 1fr 170px;
+  gap: 24px;
+  align-items: center;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--goal) 9%, transparent), rgba(255,255,255,.025));
+  box-shadow: inset 0 1px rgba(255,255,255,.07);
+}
+.week-scenarios section > span { width: 65px; height: 65px; border-radius: 20px; display: grid; place-items: center; background: color-mix(in srgb, var(--goal) 16%, transparent); color: var(--goal); font-size: 25px; font-weight: 950; }
+.week-scenarios small { color: var(--goal-2); font-weight: 950; letter-spacing: .1em; }
+.week-scenarios b { display: block; margin-top: 10px; font-size: 24px; line-height: 1.08; }
+.week-scenarios p { margin: 12px 0 0; color: #bdb6bf; }
+.week-scenarios strong { color: var(--goal); font-size: 19px; line-height: 1.2; text-align: right; }
+.plan-note { min-height: 88px; margin-top: 15px; }
+.missed .coach-strip { grid-template-columns: 230px 1fr; padding-left: 26px; }
+.missed .plan-note { grid-template-columns: 210px 1fr; }
+
+.traffic-grid { margin-top: 39px; display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
+.traffic-grid section {
+  min-height: 540px;
+  border-radius: 27px;
+  padding: 29px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255,255,255,.035);
+  box-shadow: inset 0 1px rgba(255,255,255,.07), 0 25px 60px rgba(0,0,0,.15);
+}
+.traffic-grid section.green { --signal:#68f1ae; background: linear-gradient(155deg, rgba(104,241,174,.12), rgba(255,255,255,.02)); }
+.traffic-grid section.amber { --signal:#ffc35a; background: linear-gradient(155deg, rgba(255,195,90,.13), rgba(255,255,255,.02)); }
+.traffic-grid section.red { --signal:#ff5e67; background: linear-gradient(155deg, rgba(255,94,103,.14), rgba(255,255,255,.02)); }
+.traffic-grid span { align-self: flex-start; padding: 11px 15px; border-radius: 999px; background: color-mix(in srgb, var(--signal) 14%, transparent); color: var(--signal); font-weight: 950; letter-spacing: .1em; }
+.traffic-grid b { margin-top: 34px; font-size: 30px; line-height: 1.03; }
+.traffic-grid p { margin: 24px 0 0; color: #bdb6bf; }
+.traffic-grid strong { margin-top: auto; color: var(--signal); font-size: 22px; letter-spacing: .12em; }
+.research-strip.safety span { color: #ffcf70; }
+
+.missed-final { margin-top: 43px; }
+.missed-final h2 { font-size: 63px; }
+.missed-final .goal-token { box-shadow: inset 0 1px rgba(255,255,255,.08), 0 35px 90px rgba(0,0,0,.35), 0 0 0 5px var(--goal-2); }
+.missed-final .goal-token b { color: var(--goal-2); }
+.bart-note { margin-top: 28px; min-height: 108px; }
+.bart-note b { color: var(--goal); }
