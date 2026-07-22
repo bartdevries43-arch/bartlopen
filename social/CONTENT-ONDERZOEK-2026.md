@@ -604,6 +604,7 @@ Controleer iedere eerste maandag van de maand:
 
 ### Nieuw afgerond
 
+- **Vroeg hardlopen? Eet dit eerst:** acht slides over nuchter lopen, eten op basis van duur en intensiteit, praktische ontbijtmomenten, maagklachten en een persoonlijke testroutine.
 - **Training gemist? Haal hem niet zomaar in:** acht slides met een beslisboom voor een gemiste rustige duurloop, kwaliteitstraining of lange duurloop, inclusief een veilige terugkeer na ziekte of pijn.
 - **Mobiele leesbaarheidsronde:** alle 28 series en 224 afbeeldingen opnieuw opgebouwd met grotere tekst, ruimere kaarten, een vaste TikTok-leesnorm en vernieuwde downloadpakketten.
 - **Cafeïne voor je wedstrijd:** acht slides over mogelijke voordelen, dosis, timing, verschillende bronnen, bijwerkingen, slaap en een testplan voor training en race.

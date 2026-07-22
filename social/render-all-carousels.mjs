@@ -31,6 +31,7 @@ const decks = [
   ['legday', 'legday-pro'],
   ['marathonmuur', 'marathonmuur-pro'],
   ['missed', 'missed-pro'],
+  ['ochtendrun', 'ochtendrun-pro'],
   ['pacing', 'pacing-pro'],
   ['recovery', 'recovery-pro'],
   ['spierpijn', 'spierpijn-pro'],

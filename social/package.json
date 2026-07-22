@@ -30,6 +30,7 @@
     "render:kuittraining": "playwright install chromium && node render-kuittraining.mjs",
     "render:cafeine": "playwright install chromium && node render-cafeine.mjs",
     "render:missed": "node render-missed.mjs",
+    "render:ochtendrun": "node render-ochtendrun.mjs",
     "audit:mobile": "node audit-mobile-readability.mjs",
     "render:all-mobile": "node render-all-carousels.mjs",
     "refresh:downloads": "node refresh-carousel-zips.mjs"

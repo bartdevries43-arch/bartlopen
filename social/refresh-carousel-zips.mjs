@@ -27,6 +27,7 @@ const decks = [
   ['legday-pro','legday','bartlopen-legday-carousel.zip'],
   ['marathonmuur-pro','marathonmuur','bartlopen-marathonmuur-carousel.zip'],
   ['missed-pro','missed','bartlopen-missed-carousel.zip'],
+  ['ochtendrun-pro','ochtendrun','bartlopen-ochtendrun-carousel.zip'],
   ['pacing-pro','pacing','bartlopen-pacing-carousel.zip'],
   ['recovery-pro','recovery','bartlopen-recovery-carousel.zip'],
   ['spierpijn-pro','spierpijn','bartlopen-spierpijn-carousel.zip'],
