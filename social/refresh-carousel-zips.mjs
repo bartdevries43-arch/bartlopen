@@ -38,6 +38,7 @@ const decks = [
   ['threedays-pro','threedays','bartlopen-threedays-carousel.zip'],
   ['tienprocent-pro','tienprocent','bartlopen-tienprocent-carousel.zip'],
   ['vo2max-pro','vo2max','bartlopen-vo2max-carousel.zip'],
+  ['warmingup-pro','warmingup','bartlopen-warmingup-carousel.zip'],
   ['watchcheck-pro','watchcheck','bartlopen-watchcheck-carousel.zip'],
   ['zone2-pro','zone2','bartlopen-zone2-carousel.zip']
 ];

@@ -42,6 +42,7 @@ const decks = [
   ['threedays', 'threedays-pro'],
   ['tienprocent', 'tienprocent-pro'],
   ['vo2max', 'vo2max-pro'],
+  ['warmingup', 'warmingup-pro'],
   ['watchcheck', 'watchcheck-pro'],
   ['zone2', 'zone2-pro']
 ];
