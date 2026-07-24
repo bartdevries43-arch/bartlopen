@@ -96,3 +96,19 @@ main { display: grid; gap: 84px; padding-bottom: 96px; }
   .app-band { grid-template-columns: 1fr; }
   .top-links > a:not(.header-cta) { display: none; }
 }
+
+/* ===== Polish (jul 2026): micro-interacties ===== */
+.pace-table tbody tr { transition: background 0.15s ease; }
+.pace-table tbody tr:hover { background: rgba(255, 150, 63, 0.06); }
+.phase-card { transition: transform 0.2s ease, border-color 0.2s ease; }
+.phase-card:hover { transform: translateY(-3px); border-color: rgba(255, 150, 63, 0.4); }
+.distance-card .go { transition: transform 0.2s ease; display: inline-block; }
+.distance-card:hover .go { transform: translateX(5px); }
+.price-mini a b { transition: transform 0.2s ease; display: inline-block; }
+.price-mini a:hover b { transform: scale(1.08); }
+.faq details { transition: border-color 0.2s ease; }
+.faq details[open] { border-color: rgba(255, 150, 63, 0.45); }
+@media (prefers-reduced-motion: reduce) {
+  .pace-table tbody tr, .phase-card, .distance-card .go, .price-mini a b, .faq details { transition: none; }
+  .phase-card:hover, .distance-card:hover .go, .price-mini a:hover b { transform: none; }
+}
