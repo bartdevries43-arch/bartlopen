@@ -604,6 +604,7 @@ Controleer iedere eerste maandag van de maand:
 
 ### Nieuw afgerond
 
+- **Lage HRV? Gooi je training niet meteen weg:** acht slides over HRV als persoonlijke trend, mogelijke oorzaken van een lage nacht, consistente metingen en een praktische groen-oranje-roodcheck voor de training van vandaag.
 - **Ga je hardlopen? Doe dit eerst:** acht slides over een warming-up die past bij een rustige duurloop, intervaltraining of wedstrijd, inclusief een korte routine, de nuance rond statisch rekken en een concrete intervalvoorbereiding.
 - **Vroeg hardlopen? Eet dit eerst:** acht slides over nuchter lopen, eten op basis van duur en intensiteit, praktische ontbijtmomenten, maagklachten en een persoonlijke testroutine.
 - **Training gemist? Haal hem niet zomaar in:** acht slides met een beslisboom voor een gemiste rustige duurloop, kwaliteitstraining of lange duurloop, inclusief een veilige terugkeer na ziekte of pijn.

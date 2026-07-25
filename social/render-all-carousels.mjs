@@ -26,6 +26,7 @@ const decks = [
   ['gels', 'gels-pro'],
   ['hitte', 'hitte-pro'],
   ['hybrid', 'hybrid-hardlopen-kracht-pro'],
+  ['hrv', 'hrv-pro'],
   ['intervaltempo', 'intervaltempo-pro'],
   ['kuittraining', 'kuittraining-pro'],
   ['legday', 'legday-pro'],

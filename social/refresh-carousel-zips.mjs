@@ -22,6 +22,7 @@ const decks = [
   ['gels-pro','gels','bartlopen-gels-carousel.zip'],
   ['hitte-pro','hitte','bartlopen-hitte-carousel.zip'],
   ['hybrid-hardlopen-kracht-pro','hardlopen-kracht','bartlopen-carousel-hardlopen-kracht.zip'],
+  ['hrv-pro','hrv','bartlopen-hrv-carousel.zip'],
   ['intervaltempo-pro','intervaltempo','bartlopen-intervaltempo-carousel.zip'],
   ['kuittraining-pro','kuittraining','bartlopen-kuittraining-carousel.zip'],
   ['legday-pro','legday','bartlopen-legday-carousel.zip'],
